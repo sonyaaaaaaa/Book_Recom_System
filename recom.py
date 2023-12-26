@@ -31,7 +31,7 @@ def get_recommendations_new(title):
     # Выведем топ-10 самых похожих книг
     return list(books['original_title'].iloc[book_indices])
 	
-books=pd.read_csv(r"D:\univer\3course\Project_Sonya_Nastya\Proj_Sonya_Nastya\books.csv")
+books=pd.read_csv(r"D:\univer\3course\Proj_Books_Recom\books.csv")
 books=books.dropna()
 
 features=['original_title','authors','average_rating']
