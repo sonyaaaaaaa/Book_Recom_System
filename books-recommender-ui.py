@@ -41,7 +41,7 @@ class BooksRecommenderGUI(QMainWindow):
 
 def load_books_list():
     # Путь к файлу CSV
-    books_csv_path = r"D:\univer\3course\Project_Sonya_Nastya\Proj_Sonya_Nastya\books.csv"
+    books_csv_path = r"D:\univer\3course\Proj_Books_Recom\books.csv"
 
     try:
         books_df = pd.read_csv(books_csv_path)
